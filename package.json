@@ -1,6 +1,6 @@
 {
   "name": "shield-guard",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "description": "Advanced rate limiting middleware for Node.js applications with enterprise-grade features and flexible configuration options",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,8 +8,7 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
-    "prepare": "npm run build",
-    "dev": "node index.js"
+    "prepare": "npm run build"
   },
   "keywords": [
     "rate-limit",
@@ -30,9 +29,9 @@
   "author": "wizardhere",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.3",
     "geoip-lite": "^1.4.9",
     "redis": "^4.6.13",
+    "termstyle-pro": "^1.1.0",
     "winston": "^3.12.0"
   },
   "devDependencies": {

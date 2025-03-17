@@ -245,9 +245,6 @@ const shield = new ShieldGuard({
    });
    ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
 
 ## 📝 License
 
